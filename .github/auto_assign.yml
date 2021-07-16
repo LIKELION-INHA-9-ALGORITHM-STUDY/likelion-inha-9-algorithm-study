@@ -1,0 +1,12 @@
+
+addReviewers: true
+
+addAssignees: author
+
+reviewers:
+  - devHudi
+
+skipKeywords:
+  - wip
+
+numberOfReviewers: 0
