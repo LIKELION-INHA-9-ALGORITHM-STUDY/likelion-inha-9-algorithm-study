@@ -9,5 +9,3 @@ def solution(phone_book):
 			if temp and num_len != temp:
 				return False
 	return True
-
-print(solution(["119", "97674223", "1195524421"]))
