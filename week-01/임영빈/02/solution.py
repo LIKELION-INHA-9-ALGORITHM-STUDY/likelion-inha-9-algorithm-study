@@ -3,10 +3,11 @@ def solution(phone_book):
 	for phone_num in phone_book:
 		hash_map[phone_num] = len(phone_num)
 	for phone_num in phone_book:
-		temp_num = ""
-		for num in phone_num:
-			temp_num += num
-			temp = hash_map.get(temp_num, False)
-			if temp and len(phone_num) != temp:
+		num_len = len(phone_num)
+		for i in range(num_len):
+			temp = hash_map.get(phone_num[:i], False)
+			if temp and num_len != temp:
 				return False
 	return True
+
+print(solution(["119", "97674223", "1195524421"]))
