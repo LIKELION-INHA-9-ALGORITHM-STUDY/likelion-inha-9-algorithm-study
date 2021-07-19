@@ -1,10 +1,21 @@
-
 addReviewers: true
 
 addAssignees: author
 
 reviewers:
   - devHudi
+  - dragon0821
+  - hyunjoebrother
+  - chaeyoung-moon
+  - pcpark98
+  - yeonsooSo
+  - sonmh79
+  - rxb8k
+  - angie906
+  - dlwnsgus07
+  - yeongbinim
+  - hgo641
+  - sara5885
 
 skipKeywords:
   - wip
