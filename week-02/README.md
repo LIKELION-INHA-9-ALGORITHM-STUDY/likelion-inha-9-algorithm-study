@@ -1,21 +1,27 @@
-## 00 주차 문제
+## 02 주차 문제
 
-### 01 - 문제이름 (하)
+2주차 주제는 스택/큐입니다!
 
-문제링크 : https://~
+### 01 - 폰켓몬 (하)
 
-### 02 - 문제이름 (중)
+_주차별 주제 미관련입니다_
 
-문제링크 : https://~
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/1845
 
-### 03 - 문제이름 (중)
+### 02 - 기능개발 (중)
 
-문제링크 : https://~
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/42586
 
-### 04 - 문제이름 (중)
+### 03 - 다리를 지나는 트럭 (중)
 
-문제링크 : https://~
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/42583
 
-### 05 - 문제이름 (상)
+### 04 - 주식가격 (중)
 
-문제링크 : https://~
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/42584
+
+### 05 - 2 x n 타일링 (상)
+
+_주차별 주제 미관련입니다_
+
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/12900

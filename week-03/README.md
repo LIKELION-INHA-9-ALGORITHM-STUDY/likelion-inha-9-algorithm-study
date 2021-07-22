@@ -1,21 +1,23 @@
-## 00 주차 문제
+## 03 주차 문제
 
-### 01 - 문제이름 (하)
+3주차 주제는 힙과 정렬입니다!
 
-문제링크 : https://~
+### 01 - K번째수 (하)
 
-### 02 - 문제이름 (중)
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/42748
 
-문제링크 : https://~
+### 02 - 가장 큰 수 (중)
 
-### 03 - 문제이름 (중)
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/42746
 
-문제링크 : https://~
+### 03 - H-Index (중)
 
-### 04 - 문제이름 (중)
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/42747
 
-문제링크 : https://~
+### 04 - 더 맵게 (중)
 
-### 05 - 문제이름 (상)
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/42626
 
-문제링크 : https://~
+### 05 - 이중우선순위큐 (상)
+
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/42628
