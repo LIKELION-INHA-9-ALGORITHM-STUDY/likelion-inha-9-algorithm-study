@@ -26,7 +26,7 @@
 def solution(participant, completion):
     dict = {} # 빈 dictionary형 data
     for x in participant : 
-        dict[x] = dict.get(x,0)+1 # 해당 key가 없으면 0 반환 (현재 모두 1)
+        dict[x] = dict.get(x,0)+1 # 해당 key가 없으면 0 반환 (현재 모두 0+1)
         
     for x in completion :
         dict[x] = dict.get(x,0)-1 # 완주하면 (해당 key 있으면) 1-1 = 0
