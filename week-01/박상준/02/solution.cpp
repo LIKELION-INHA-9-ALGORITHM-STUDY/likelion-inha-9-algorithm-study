@@ -6,15 +6,15 @@ using namespace std;
 
 bool solution(vector<string> phone_book) {
     sort(phone_book.begin(), phone_book.end());
-    // »çÀü¼ø Á¤·Ä(À¯»ç ¹®ÀÚ³¢¸® Á¤·ÄµÊ.) -> ¹Ù·Î µÚ¿¡ °ãÄ¡´Â°Å ÀÖ´ÂÁö¸¸ º¸¸é µÊ.
+    // ì‚¬ì „ìˆœ ì •ë ¬(ìœ ì‚¬ ë¬¸ìë¼ë¦¬ ì •ë ¬ë¨.) -> ë°”ë¡œ ë’¤ì— ê²¹ì¹˜ëŠ”ê±° ìˆëŠ”ì§€ë§Œ ë³´ë©´ ë¨.
     bool answer = true;
 
     for (int i = 0; i < phone_book.size() - 1; i++) {
         if (phone_book[i].length() >= phone_book[i + 1].length()) continue;
-        //µŞ ¹øÈ£ÀÇ ±æÀÌ°¡ ¾Õ ¹øÈ£ÀÇ ±æÀÌº¸´Ù ±æ°Å³ª °°À¸¸é Áßº¹ È®·ü x
+        //ì• ë²ˆí˜¸ì˜ ê¸¸ì´ê°€ ë’· ë²ˆí˜¸ì˜ ê¸¸ì´ë³´ë‹¤ ê¸¸ê±°ë‚˜ ê°™ìœ¼ë©´ ì¤‘ë³µ í™•ë¥  x
 
         if (phone_book[i] == phone_book[i + 1].substr(0, phone_book[i].length())) {
-            answer = false; // Á¢µÎ¾îÀÎ °æ¿ì.
+            answer = false; // ì ‘ë‘ì–´ì¸ ê²½ìš°.
             break;
         }
     }
