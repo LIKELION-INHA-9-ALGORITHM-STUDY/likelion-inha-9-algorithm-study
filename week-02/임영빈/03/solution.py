@@ -1,3 +1,8 @@
+# (bridge_length, weight, truck_weights[]) => {
+#	truck_weights[]배열안의 트럭들이
+#	weight만큼의 무게를 견딜 수 있는 다리길이 bridge_length 건너는 시간 total_time을 구해서
+#	return (total_time)
+# }
 from queue import Queue
 
 def solution(bridge_length, weight, truck_weights):
