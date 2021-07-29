@@ -6,17 +6,17 @@
 from queue import Queue
 
 # 다리 길이만큼 0넣어준 큐 반환
-def create_bridge(bridge_length):
-	bridge = Queue()
-	for _ in range(bridge_length):
-		bridge.put(0)
-	return bridge
+def create_queue(length):
+	q = Queue()
+	for _ in range(length):
+		q.put(0)
+	return q
 
 def solution(bridge_length, weight, truck_weights):
 	bridge_weight = 0 #다리 무게
 	total_time = 0 #총 시간
 	truck_num = len(truck_weights) #트럭 개수
-	bridge = create_bridge(bridge_length)
+	bridge = create_queue(bridge_length)
 	idx = 0
 	
 	while(idx < truck_num):
