@@ -1,33 +1,28 @@
-# (bridge_length, weight, truck_weights[]) => {
-#	truck_weights[]배열안의 트럭들이
-#	weight만큼의 무게를 견딜 수 있는 다리길이 bridge_length 건너는 시간 total_time을 구해서
-#	return (total_time)
-# }
-from queue import Queue
+from collections import deque
 
-# 다리 길이만큼 0넣어준 큐 반환
+# 다리 길이만큼 0넣어준 데크 반환
 def create_bridge(bridge_length):
-	bridge = Queue()
+	bridge = deque()
 	for _ in range(bridge_length):
-		bridge.put(0)
+		bridge.append(0)
 	return bridge
 
 def solution(bridge_length, weight, truck_weights):
 	bridge_weight = 0 #다리 무게
 	total_time = 0 #총 시간
 	truck_num = len(truck_weights) #트럭 개수
-	bridge = create_bridge(bridge_length)
-	idx = 0
+	bridge = create_bridge(bridge_length) # 브릿지
+	idx = 0 # truck_weights리스트를 조회할 index
 	
 	while(idx < truck_num):
 		total_time += 1
-		bridge_weight -= bridge.get()
+		bridge_weight -= bridge.popleft()
 		truck_weight = truck_weights[idx]
 		if truck_weight + bridge_weight <= weight :
-			bridge.put(truck_weight)
+			bridge.append(truck_weight)
 			bridge_weight += truck_weight
 			idx += 1
 		else:
-			bridge.put(0)
+			bridge.append(0)
 	total_time += bridge_length
 	return total_time
