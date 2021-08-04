@@ -1,21 +1,23 @@
-## 00 주차 문제
+## 04 주차 문제
 
-### 01 - 문제이름 (하)
+4주차 주제는 완전탐색입니다!
 
-문제링크 : https://~
+### 01 - 모의고사 (하)
 
-### 02 - 문제이름 (중)
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/42840
 
-문제링크 : https://~
+### 02 - 소수 찾기 (중)
 
-### 03 - 문제이름 (중)
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/42839
 
-문제링크 : https://~
+### 03 - 카펫 (중)
 
-### 04 - 문제이름 (중)
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/42842
 
-문제링크 : https://~
+### 04 - 유레카 이론 (중)
 
-### 05 - 문제이름 (상)
+문제링크 : https://www.acmicpc.net/problem/10448
 
-문제링크 : https://~
+### 05 - 사탕게임 (상)
+
+문제링크 : https://www.acmicpc.net/problem/3085
