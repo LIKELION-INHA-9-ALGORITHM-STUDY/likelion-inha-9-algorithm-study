@@ -1,3 +1,4 @@
+# student 클래스 => 학생의 정답, 점수, id로 구성
 class student:
     def __init__(self, real_answer, random, id):
         share, rest = len(real_answer) // len(random), len(real_answer) % len(random)
@@ -8,6 +9,7 @@ class student:
         self.id = id
 
 
+# 학생 3명에 대한 객체를 만들어 최고 점수를 받은 학생들을 return
 def solution(answers):
     s1 = student(answers, [1, 2, 3, 4, 5], id=1)
     s2 = student(answers, [2, 1, 2, 3, 2, 4, 2, 5], id=2)
