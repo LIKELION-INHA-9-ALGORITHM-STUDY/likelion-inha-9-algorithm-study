@@ -1,21 +1,23 @@
-## 00 주차 문제
+## 05 주차 문제
 
-### 01 - 문제이름 (하)
+5주차 주제는 그리디입니다!
 
-문제링크 : https://~
+### 01 - 체육복 (하)
 
-### 02 - 문제이름 (중)
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/42862
 
-문제링크 : https://~
+### 02 - 조이스틱 (중)
 
-### 03 - 문제이름 (중)
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/42860
 
-문제링크 : https://~
+### 03 - 큰 수 만들기 (중)
 
-### 04 - 문제이름 (중)
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/42883
 
-문제링크 : https://~
+### 04 - 구명보트 (중)
 
-### 05 - 문제이름 (상)
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/42885
 
-문제링크 : https://~
+### 05 - 섬 연결하기 (상)
+
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/42861
