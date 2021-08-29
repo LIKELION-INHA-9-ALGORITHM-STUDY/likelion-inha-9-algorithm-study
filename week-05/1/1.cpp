@@ -24,7 +24,6 @@ int solution(int n, vector<int> lost, vector<int> reserve) {
 			student[i]++; student[i + 1]--;
 		}
 	}
-
 	//체육복갖고있는 학생 수 세기
 	for (int i = 0; i < student.size(); i++) {
 		if (student[i] > 0) answer++;

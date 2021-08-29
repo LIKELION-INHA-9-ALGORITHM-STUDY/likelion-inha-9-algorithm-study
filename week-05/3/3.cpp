@@ -11,6 +11,7 @@ int solution(vector<int> people, int limit) {
 	//people vector가 empty가 되지 않을 때까지
 	while (index < people.size()) {
 		int last = people.back(); people.pop_back();
+
 		//제일 가벼운 사람 + 제일 무거운 사람 
 		if (people[index] + last <= limit)
 			index++;
