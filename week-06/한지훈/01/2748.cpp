@@ -1,25 +1,31 @@
 #include <iostream>
 using namespace std;
 
-long long arr[100] = { 0, 1, };
+class Fibonacci {
 
-long long fibo(int num) {
+private:
+	long long arr[100] = { 0, 1, };
 
-	if (num == 0 || num == 1) {
+public:
+	long long getNum(int num) {
+		if (num == 0 || num == 1) {
+			return arr[num];
+		}
+		else if (arr[num] == NULL) {
+			arr[num] = getNum(num - 1) + getNum(num - 2);
+		}
+
 		return arr[num];
 	}
-	else if (arr[num] == NULL) {
-		arr[num] = fibo(num - 1) + fibo(num - 2);
-	}
 
-	return arr[num];
+};
 
-}
 
 int main() {
 
 	int num;
+	Fibonacci fibo;
 	cin >> num;
-	cout << fibo(num);
+	cout << fibo.getNum(num);
 
 }
