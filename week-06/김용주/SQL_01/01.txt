@@ -1,0 +1,2 @@
+SELECT * from animal_ins order by animal_id asc;
+모든 속성에 대한 tuple을 출력하라고 했으므로 *을 통해 출력했습니다.
