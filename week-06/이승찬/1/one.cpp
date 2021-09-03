@@ -3,20 +3,23 @@ using namespace std;
 
 int main()
 {
-	int a;
-	int first = 0;
-	int second = 1;
-	int newnum = 0;
-	cin >> a;
-	if (a <= 90)
+	int n;
+	int a = 0;
+	cin >> n;
+	for (int i = 0; i <= 100; i++)
 	{
-		for (int i = 1; i <= a; i++)
+		if (n == 1)
 		{
-			first = second;
-			second = newnum;
-			newnum = first + second;
+			break;
+			a += 1;
+			if ((n % 3) == 0)
+				n = n / 3;
+			else if ((n % 2) == 0)
+				n = n / 2;
+			else
+				n = m - 1;
 		}
-		cout << newnum << endl;
 	}
+	cout << a << endl;
 	return 0;
 }
