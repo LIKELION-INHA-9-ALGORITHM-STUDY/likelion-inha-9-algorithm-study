@@ -3,7 +3,7 @@
 
 using namespace std;
 
-vector<long long> v;
+vector<long long> v(90);
 
 long long solution(int n){
     if(n==0){

@@ -14,7 +14,7 @@ int main(){
         stairs.push_back(score);
     }
     maxValue.push_back(stairs[0]);
-    maxValue.push_back(max(stairs[1],stairs[0]+stairs[1]));
+    maxValue.push_back(max(stairs[0]+stairs[1]));
     maxValue.push_back(max(stairs[0]+stairs[2], stairs[1]+stairs[2]));
     for(int i=3;i<test;i++){
         maxValue.push_back(max(stairs[i]+maxValue[i-2], stairs[i]+stairs[i-1]+maxValue[i-3]));
