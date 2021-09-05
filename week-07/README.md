@@ -1,29 +1,43 @@
-## 00 주차 문제
+## 07 주차 문제
 
-### 01 - 문제이름 (하)
+이번주차 주제는 'DFS/BFS' 입니다!
 
-문제링크 : https://~
+### 01 - 반복수열 (하)
 
-### 02 - 문제이름 (중)
+문제링크 : https://www.acmicpc.net/problem/2331
 
-문제링크 : https://~
+### 02 - 바이러스 (중)
 
-### 03 - 문제이름 (중)
+문제링크 : https://www.acmicpc.net/problem/2606
 
-문제링크 : https://~
+### 03 - 외판원 순회 2 (중)
 
-### 04 - 문제이름 (중)
+문제링크 : https://www.acmicpc.net/problem/10971
 
-문제링크 : https://~
+### 04 - 타겟넘버 (중)
 
-### 05 - 문제이름 (상)
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/43165
 
-문제링크 : https://~
+### 05 - 네트워크 (상)
 
-### SQL 01 - 문제이름 (보너스 1점)
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/43162
 
-문제링크 : https://~
+### SQL 01 - 아픈 동물 찾기 (보너스 0.4점)
 
-### SQL 02 - 문제이름 (보너스 1점)
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/59036
 
-문제링크 : https://~
+### SQL 02 - 어린 동물 찾기 (보너스 0.4점)
+
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/59037
+
+### SQL 03 - 동물의 아이디와 이름 (보너스 0.4점)
+
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/59403
+
+### SQL 04 - 여러 기준으로 정렬하기 (보너스 0.4점)
+
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/59404
+
+### SQL 05 - 상위 1개 레코드 (보너스 0.4점)
+
+문제링크 : https://programmers.co.kr/learn/courses/30/lessons/59405
