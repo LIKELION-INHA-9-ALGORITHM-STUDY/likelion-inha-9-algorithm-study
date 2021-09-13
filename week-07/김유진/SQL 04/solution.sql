@@ -1,0 +1,4 @@
+-- 코드를 입력하세요
+SELECT ANIMAL_ID, NAME, DATETIME FROM ANIMAL_INS 
+ORDER BY NAME ASC, DATETIME DESC
+-- 이름순으로 오름차순, 시간 기준은 내림차순
