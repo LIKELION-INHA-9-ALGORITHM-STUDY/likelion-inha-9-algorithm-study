@@ -5,7 +5,7 @@ def b_search_recur(arr, target, low, high):
 
 	total = 0
 	for t in arr:
-		total += middle // t # 주어진 시간이 middle일 때 심사할 수 있는 최대 인원의 수
+		total += middle // t
 	if total >= target:
 		return b_search_recur(arr, target, low, middle)
 	else:
