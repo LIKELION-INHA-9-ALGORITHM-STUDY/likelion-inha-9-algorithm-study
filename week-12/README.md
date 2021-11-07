@@ -16,7 +16,7 @@
 
 문제링크 : https://www.acmicpc.net/problem/2606
 
-### 05 - 아기상어(골드5) (상 3점)
+### 05 - 아기상어(골드4) (상 3점)
 
 문제링크 : https://www.acmicpc.net/problem/16236
 
