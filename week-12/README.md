@@ -14,7 +14,7 @@
 
 ### 04 - 동전0(실버2) (중 2점)
 
-문제링크 : https://www.acmicpc.net/problem/2606
+문제링크 : https://www.acmicpc.net/problem/11047
 
 ### 05 - 아기상어(골드4) (상 3점)
 
