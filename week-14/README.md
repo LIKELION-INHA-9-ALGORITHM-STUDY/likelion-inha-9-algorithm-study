@@ -16,6 +16,6 @@
 
 문제링크 : https://www.acmicpc.net/problem/1024
 
-### 05 - 소트 (상 3점)
+### 05 - 소트 (골드5) (상 3점)
 
 문제링크 : https://www.acmicpc.net/problem/1083
